@@ -1,6 +1,5 @@
 ## print("hello world!")
 
-
 """
     注释
       注释
@@ -15,8 +14,14 @@
 # # 3.显示结果
 # print(rmb)
 
-print("qtx")
-qtx = input("context")
+# print("qtx")
+# qtx = input("context")
+#
+# print(qtx)
+#
+# class_name = "1111"
+# stu_name = "zs"
+# class_name = stu_name + class_name
 
-print(qtx)
-
+class_name1, class_name2 = "ls", "ww"
+print(class_name1, class_name2)
