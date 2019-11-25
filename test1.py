@@ -19,9 +19,28 @@
 #
 # print(qtx)
 #
+#
 # class_name = "1111"
 # stu_name = "zs"
 # class_name = stu_name + class_name
 
-class_name1, class_name2 = "ls", "ww"
-print(class_name1, class_name2)
+# class_name1, class_name2 = "ls", "ww"
+# print(class_name1, class_name2)
+
+"""
+    分别赋值两个变量；
+    将这两个变量值交换；
+"""
+# 1.赋值
+str_a = input("输入第一个值")
+str_b = input("输入第二个值")
+# # 2.临时变量进行交换
+# str_c = str_a
+# str_a = str_b
+# str_b = str_c
+# 2.直接交换
+str_a, str_b = str_b, str_a
+# 3.输出
+print("第一个变量为:" + str_a)
+print("第二个变量为:" + str_b)
+
