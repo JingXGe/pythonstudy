@@ -22,5 +22,3 @@ def play():
 
 if __name__ == '__main__':
     play()
-
-print("testtopic-github")
