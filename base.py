@@ -30,3 +30,6 @@ print("dict['School']:", dict['School'])
 del dict['Name']  # 删除键
 dict.clear()  # 清空字典
 del dict  # 删除字典
+
+basket = {'apple','orange','apple','pear','orange','banana'}
+print(basket)
