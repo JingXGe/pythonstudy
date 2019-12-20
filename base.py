@@ -31,5 +31,46 @@ del dict['Name']  # 删除键
 dict.clear()  # 清空字典
 del dict  # 删除字典
 
-basket = {'apple','orange','apple','pear','orange','banana'}
-print(basket)
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+print(basket)  # 可去重
+print('orange' in basket)
+print('crabgrass' in basket)
+print('glass' in basket)
+
+a = set('abracadabra')
+b = set('alacazam')
+print(a)
+
+print(a - b)  # a中包含而b中不包含的元素
+
+a.add('t')
+print(a)  # 添加元素
+
+a.update({1, 3})
+print(a)
+a.update([5, 4], [9, 6])
+print(a)
+# 添加元素，可以是列表/元组/字典
+
+a.remove(5)
+print(a)
+a.discard(10)
+print(a)
+# 删除元素，无此元素前者会报错后者不报错
+a.pop()
+print(a)  # 随机删除一个元素
+
+thisset = set(("google", "runoob", "taobao", "facebook"))
+x = thisset.pop()
+print(thisset)
+print(x)
+# set集合的pop方法会对集合进行无序的排列，然后将这个排列集合的左面第一个元素删除
+
+print(len(thisset))  # 计算集合个数
+
+myset = set(("google", "runoob", "taobao"))
+myset.clear()
+print(myset)
+# 清空集合
+print("google" in thisset)
+# 判断元素是否存在
